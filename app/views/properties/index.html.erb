@@ -1,6 +1,7 @@
-<h1>Listing properties</h1>
+<div class="title">Listing properties</div>
+<%= link_to 'Add a new property', new_property_path, class: "btn btn-large pull-right" %>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -32,4 +33,3 @@
 
 <br>
 
-<%= link_to 'New Property', new_property_path %>
